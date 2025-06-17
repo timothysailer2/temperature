@@ -48,7 +48,7 @@ let pluralNoun = 'buildings';
 let tvShow = 'Justified';
 let Teacher = 'Mrs. Putnam';
 let verb1 = 'punch';
-let verb2 = 'lick';
+const verb2 = 'lick';
 console.log("The words I chose are: " + adjective + ", " + animal + ", " + bestFriend + ", " + food + ", " + noun + ", " + pastVerb + ", " + pluralNoun + ", " + tvShow + ", " + Teacher + ", " + verb1 + ", and " + verb2);
 console.log("And my story is as follows: ");
 console.log("Things That Drive Me Crazy");
