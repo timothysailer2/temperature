@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Funny Story</title>
+</head>
+<body>
+
+  <h1>My Funny Story</h1>
+
+  <p>Fill in the blanks to create your story:</p>
+
+  <form id="madLibsForm">
+    <p>
+      Noun: <input type="text" id="nounInput">
+    </p>
+    <p>
+      Adjective: <input type="text" id="adjectiveInput">
+    </p>
+    <p>
+      Verb (past tense): <input type="text" id="verbInput">
+    </p>
+    <p>
+      Place: <input type="text" id="placeInput">
+    </p>
+    
+    <button type="button" onclick="generateMadLib()">Generate Story</button>
+  </form>
+
+  <div id="story">
+    <h2>Your Story:</h2>
+    <p id="generatedStory"></p>
+  </div>
+
+  <script>
+    function generateMadLib() {
+      // Get the input values from the form
+      let noun = document.getElementById("nounInput").value;
+      const adjective = document.getElementById("adjectiveInput").value;
+      let verb = document.getElementById("verbInput").value;
+      const place = document.getElementById("placeInput").value;
+
+      // Create the story using the input values
+      const story = `One day, a ${adjective} ${noun} ${verb} to the ${place}.`;
+
+      // Display the generated story
+      document.getElementById("generatedStory").innerText = story;
+    }
+  </script>
+
+</body>
+</html>
