@@ -53,6 +53,7 @@ console.log("The words I chose are: " + adjective + ", " + animal + ", " + bestF
 console.log("And my story is as follows: ");
 console.log("Things That Drive Me Crazy");
 console.log("I just hate it when Mom serves " + food + " for dinner.");
+console.log(Teacher + " gets mad at the class for being " + adjective + ".");
 console.log("My pet " + animal + " chews my " + noun + " when I am not home.");
 console.log("when my best friend " + bestFriend + " decides to " + verb1 + "someone else.");
 console.log("I get " + pastVerb + " for something I didnt do.");
